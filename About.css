@@ -1,0 +1,142 @@
+
+body{
+    height: fit-content;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+ul > li > a {
+  font-size: 200px;
+  font-weight: bold;
+}
+
+
+
+.column h1 {
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #19345e;
+  font-size: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 1;
+  float: left;
+}
+.column {
+  display: flex;
+  padding-left: 243px;
+  height: 132px; /* Should be removed. Only for demonstration */
+  align-items: center;
+
+  background-color: #f4f7fc;
+}
+
+.grid {
+  display: flex;
+  margin: 40px 180px;
+  height: fit-content;
+}
+
+.left-column {
+  width: 70%;
+ 
+  padding: 20px;
+}
+
+.right-column {
+  width: 80%;
+
+  padding: 20px;
+}
+
+div > h4 {
+  text-align: left;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  color: #19345e;
+  opacity: 1;
+  
+  display: inline-block;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #19345e;
+}
+
+li > h5 {
+    height: 21px;
+text-align: left;
+font-family: 'Roboto', sans-serif;
+letter-spacing: 0px;
+font-size: 16px;
+color: #19345E;
+}
+ 
+tr, td > p {
+    font-weight: 600;
+}
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 20px;
+  }
+  .side {
+    margin-top: 0px;
+    margin-left: 80px;
+    margin-right: auto;
+    display: block;
+  }
+
+
+  footer {
+    background-color: #19345e;
+    height: 150px;
+    align-items: center;
+    padding-bottom: auto;
+  }
+  .footer-col {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items:center ;
+  }
+
+.contact-details {
+    font-size: 2.2rem;
+    transition: transform 0.3s ease-out;
+    justify-content: space-between;
+    text-align: center;
+    align-items:center ;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    
+}
+.contact-links > a:hover {
+    transform: translateY(10px);
+}
