@@ -140,3 +140,17 @@ table {
 .contact-links > a:hover {
     transform: translateY(10px);
 }
+
+@media screen and (max-width: 420px) {
+  .nav-list a {
+      font-size: 8px;
+      font-weight: bold;
+      padding: 3px;
+      margin-bottom: 0px;
+      background-color: antiquewhite;
+    }
+    .nav-img {
+      display: none;
+    }
+
+}

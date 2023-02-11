@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact1.css" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex flex-wrap">
+      <div class="container">
+        <a class="navbar-brand col-4 col-lg-6" href="#"
+          ><img src="assets/logo-ALTA.png" alt="" class="col"
+        /></a>
+        <button
+          class="navbar-toggler col-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="Home.html"
+                style="color: #19345e; font-weight: bold; font-size: 1.4em"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="About.html"
+                style="color: #19345e; font-weight: bold; font-size: 1.4em"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="Experience.html"
+                aria-expanded="false"
+                style="color: #19345e; font-weight: bold; font-size: 1.4em"
+              >
+                Experience
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="Contact1.html"
+                class="nav-link"
+                style="color: #f47522; font-weight: bold; font-size: 1.4em"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- MAIN SECTION -->
+
+    <div class="container" height="100%" style="margin-top: 170px;">
+      <div class="row col-xl" height="500px">
+        <div class="col-md-6 col-lg-6 left-background">
+          <img src="assets/logo-ALTA@2x.png" alt="" class="col-8" />
+        </div>
+
+        <div class="col-md-8 col-6 col-lg-6 col-xs-12 d-flex justify-content-center align-self-center">
+          <form class="col-md-8 col col justify-content-end">
+            <h4 style="color: #19345e; font-weight: bold">Contact Us</h4>
+            <br>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Full Name</label>
+              <input
+                type="fullname"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="type your name here.."
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email Address</label>
+              <input
+                type="email"
+                class="form-control col"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="example@Alterra"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputPassword1">Phone Number</label>
+              <input
+                type="number"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="0881234532"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Role</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Frontend</option>
+                <option>Backend</option>
+                <option>DevOps</option>
+                <option>QA</option>
+                <option>Junior Frontend</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Message</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="rounded-pill col-md-4 shadow-none"
+              style="
+                color: white;
+                background-color: #f47522;
+                border-color: #f47522;
+              "
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
